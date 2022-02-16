@@ -1,0 +1,59 @@
+Final results:
+
+        Ideal situation:
+                Test 1 - Ideal situation: OK
+
+        Authentication:
+                Test 2 - Wrong confirmation: OK
+                Test 3 - Key is out or range: OK
+                Test 4 - Strange username: OK
+
+        Segmenting and merging:
+                Test 5 - Segmentation: OK
+                Test 6 - Merging: OK
+                Test 7 - Segmentation + merging: OK
+
+        Syntax errors:
+                Test 8 - Max length of username: OK
+                Test 9 - The key is not a number: OK
+                Test 10 - Space after confirmation: OK
+                Test 11 - Six digit confirmation: OK
+                Test 12 - Floating point coordinates: OK
+                Test 13 - Unexpected space: OK
+
+        Timeout checking:
+                Test 14 - Client confirmation is not sent: OK
+                Test 15 - Unfinished message: OK
+
+        Optimization:
+                Test 16 - Max length of username exceeded: OK
+                Test 17 - Max length of secret exceeded: OK
+                Test 18 - Max length of confirmation exceeded: OK
+
+        Movement:
+                Test 19 - Constant obstacles 1: OK
+                Test 20 - Constant obstacles 2: OK
+                Test 21 - Constant obstacles 3: OK
+                Test 22 - Random obstacles: OK
+
+        Recharging:
+                Test 23 - After username: OK
+                Test 24 - After username with expiration: OK
+                Test 25 - Every five moves: OK
+                Test 26 - Random intervals: OK
+                Test 27 - Logic error: OK
+
+        Multithreading:
+                Test 28 - Constant obstacles 1 - three threads: OK
+
+        Everything random:
+                Test 29 - Fully random: OK
+
+        The final test:
+                Test 30 - Fully random - three threads: OK
+
+Passed 30 out of 30
+
+        Congratulations! Now you can chill out:
+
+        https://www.youtube.com/watch?v=APj2ArUy6v4
